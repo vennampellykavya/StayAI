@@ -1,7 +1,6 @@
 import os
 from mem0 import Memory
 
-os.environ["GROQ_API_KEY"] = "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"
 
 config = {
     "llm": {
