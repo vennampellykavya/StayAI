@@ -1,0 +1,4 @@
+JINA_API_KEY = <place-your-key>
+GROQ_API_KEY = <place-your-key>
+
+

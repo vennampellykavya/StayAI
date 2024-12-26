@@ -43,6 +43,13 @@ pip install -r requirements.txt
     crewai run
     ```
 
+    3.2 Create a .env file and add the following keys:
+    - create a .env file in the root directory (StayAI)
+    - Copy the env_template.txt file to .env and replace the place-your-key with your actual keys
+    ```bash
+    cp env_template.txt .env
+    ```
+
     
 
 4. Run the development server
