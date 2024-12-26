@@ -31,6 +31,15 @@ a. Install Python Packages
 # Navigate to project directory
 cd StayAI
 
+# Create the python environment
+python3.10 -m venv .venv
+
+# activate the environment
+linux/max
+    source .venv/bin/activate
+windows
+    .venv/Scripts/Activate
+
 # Install Python dependencies
 pip install -r requirements.txt
 ```
