@@ -26,35 +26,37 @@ StayAI is designed to enhance the hospitality experience by providing automated,
 git clone <your-forked-repo-url>
 ```
 3. Install the dependencies
+a. Install Python Packages
 ```bash
+# Navigate to project directory
 cd StayAI
-```
 
-```python
+# Install Python dependencies
 pip install -r requirements.txt
 ```
 
-    3.1 Install CrewAI
-    ```bash
-    cd backend/agents/stay_ai_crew
-    ```
+b. Set Up CrewAI
+```bash
+# Navigate to CrewAI directory
+cd backend/agents/stay_ai_crew
 
-    ```bash
-    crewai run
-    ```
+# Run CrewAI setup
+crewai run
+```
 
-    3.2 Create a .env file and add the following keys:
-    - create a .env file in the root directory (StayAI)
-    - Copy the env_template.txt file to .env and replace the place-your-key with your actual keys
-    ```bash
-    cp env_template.txt .env
-    ```
+c. Configure Environment Variables
+Copy the env_template.txt file to .env and replace the place-your-key with your actual keys
+```bash
+# Copy environment template
+cp env_template.txt .env
+```
+    
 
     
 
-4. Run the development server
+5. Try it out
 ```bash
-npm run dev
+python main.py
 ```
 
 ### Prerequisites
