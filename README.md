@@ -30,6 +30,21 @@ git clone <your-forked-repo-url>
 cd StayAI
 ```
 
+```python
+pip install -r requirements.txt
+```
+
+    3.1 Install CrewAI
+    ```bash
+    cd backend/agents/stay_ai_crew
+    ```
+
+    ```bash
+    crewai run
+    ```
+
+    
+
 4. Run the development server
 ```bash
 npm run dev
