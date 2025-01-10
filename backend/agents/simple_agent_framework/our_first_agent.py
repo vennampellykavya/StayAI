@@ -3,8 +3,10 @@ import os
 import requests
 from abc import ABC, abstractmethod
 
-SERPER_API_KEY = "<YOUR_SERPER_API_KEY>"
+from backend.llms.groq_llm.inference import GroqInference
 
+SERPER_API_KEY = "<YOUR_SERPER_API_KEY>"
+llm = GroqInference()
 
 class OurFirstAgent:
     def __init__(self):
@@ -64,6 +66,19 @@ class BrowserTool(Tool):
         snippets = [answer.get("snippet", "") for answer in organic_answers]
         return "\n".join(snippets)
 
+    def summarize_snippets(self, snippets: str) -> str:
+        """Summarize the snippets
+
+        Args:
+            snippets (str): The snippets to summarize
+        """
+        
+        # TODO: Use the LLM to summarize the snippets
+        system_prompt = ""
+        user_prompt = ""
+        
+        
+        return ""
 
 if __name__ == "__main__":
     tool = BrowserTool()
