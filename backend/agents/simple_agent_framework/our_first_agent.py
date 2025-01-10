@@ -84,4 +84,5 @@ if __name__ == "__main__":
     tool = BrowserTool()
     results = tool.search("Give me some information about places to visit in Jaipur")
     snippets = tool.get_snippets_from_search_results(results)
-    print(snippets)
+    summary = tool.summarize_snippets(snippets)
+    print(summary)
