@@ -1,2 +1,2 @@
 MODEL=groq/llama-3.1-70b-versatile
-GROQ_API_KEY=<groq_api_key>
+GROQ_API_KEY=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

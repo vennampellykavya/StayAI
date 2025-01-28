@@ -155,4 +155,4 @@ class BrowserTool(Tool):
 
 if __name__ == "__main__":
     agent = BrowserAgent()
-    agent.run("Give me some information about places to visit in Jaipur")
+    agent.run("Give me some information about places to visit in Bengaluru")

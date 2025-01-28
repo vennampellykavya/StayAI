@@ -18,4 +18,8 @@ if __name__ == "__main__":
     # print(summary)
     
     agent = BrowserAgent()
-    agent.run("Give me some information about places to visit in Jaipur")
+    agent.run("Give me some information about places to visit in Bengaluru")
+    add_pdf_to_chroma(
+        pdf_path="C:\FSD\Bengaluru_Wikipedia.pdf"
+    )
+    chat_with_travel_assistant()
